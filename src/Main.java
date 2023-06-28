@@ -2,16 +2,16 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        int[][] mat = {
-                new int[]{1, 2, 3, 2, 0, 1, 2},
-                new int[]{0, 1, 0, 0, 0, 0, 0},
-                new int[]{0, 0, 1, 0, 0, 0, 0},
-                new int[]{5, 0, 0, 1, 0, 0, 0},
-                new int[]{7, 0, 0, 0, 1, 0, 0},
-                new int[]{8, 0, 0, 0, 0, 1, 0},
-                new int[]{1, 0, 0, 0, 0, 0, 0}
-        };
+
+//        int[][] mat = {
+//                new int[]{1, 2, 3, 2, 0, 1, 2},
+//                new int[]{0, 1, 0, 0, 0, 0, 0},
+//                new int[]{0, 0, 1, 0, 0, 0, 0},
+//                new int[]{5, 0, 0, 1, 0, 0, 0},
+//                new int[]{7, 0, 0, 0, 1, 0, 0},
+//                new int[]{8, 0, 0, 0, 0, 1, 0},
+//                new int[]{1, 0, 0, 0, 0, 0, 0}
+//        };
 //        System.out.println(E22a67.isIdentity(mat, 0, 1));
 //        System.out.println(E22a67.isIdentity(mat, 1, 1));
 //        System.out.println(E22a67.isIdentity(mat, 1, 2));
@@ -22,11 +22,10 @@ public class Main {
 //        System.out.println(E22a67.isIdentity(mat, 4, 3));
 //        int[][] mat2 = {new int[]{1}};
 //        System.out.println(E22a67.isIdentity(mat2, 0, 1));
-
-        System.out.println(E22a67.maxMatrix(mat));
-=======
-        int[] a = {1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0,};
-        System.out.println(E21b92.longestSequence(a,4));
+//
+//        System.out.println(E22a67.maxMatrix(mat));
+//        int[] a = {1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0,};
+//        System.out.println(E21b92.longestSequence(a,4));
 //        System.out.println(E21b92.printExpr(new int[]{1, 3, 6, 2}, 3));
 //        int[][] mat = {
 //                new int[]{1, 2, 3, 2, 0, 1, 2},
@@ -49,7 +48,6 @@ public class Main {
 ////        System.out.println(E22a67.isIdentity(mat2, 0, 1));
 //
 //        System.out.println(E22a67.maxMatrix(mat));
->>>>>>> a038c1f (E21b92)
 //        System.out.println(E22a89.longestSubarray(new int[]{-1, 1, -5, 2, 2,0,0,0,0,1,-2,1,0,1,-3,1,-1,1}));
 //        System.out.println(E22a89.longestSubarray(new int[]{-2,-2}));
 //        System.out.println(E22a89.longestSubarray(new int[]{1,2,3,4,5,4}));
