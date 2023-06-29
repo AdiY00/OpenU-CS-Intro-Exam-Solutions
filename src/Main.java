@@ -1,7 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(E21b62.equalSplit(new int[]{-3,5,12,14,-9,13}));
-        System.out.println(E21b62.equalSplit(new int[]{-3,5,-12,14,-9,13}));
+//        int[] a = {1, 4, 13, 6, 0, 19};
+//        System.out.println(E21b60.smallestSub(a, 22));
+//        System.out.println(E21b60.smallestSub(a, 42));
+//        System.out.println(E21b60.smallestSub(a, 43));
+//        System.out.println(E21b60.smallestSub(a, 26));
+//        System.out.println(E21b60.smallestSub(a, 2));
+//        System.out.println(E21b60.split3(new int[]{8, 4, 7, 1, 2, 3, 5}));
+//        System.out.println(E21b60.split3(new int[]{4, 7, 1, 2, 3, 5}));
+//        System.out.println(E21b60.split3(new int[]{3,3,3}));
+//        System.out.println(E21b60.split3(new int[]{2,1,1}));
+//        System.out.println(E21b60.split3(new int[]{1,1,1,1}));
+//        System.out.println(E21b62.equalSplit(new int[]{-3,5,12,14,-9,13}));
+//        System.out.println(E21b62.equalSplit(new int[]{-3,5,-12,14,-9,13}));
 //        int[][] mat = {
 //                new int[]{1, 2, 3, 2, 0, 1, 2},
 //                new int[]{0, 1, 0, 0, 0, 0, 0},
