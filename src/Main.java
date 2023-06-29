@@ -1,8 +1,7 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println(E21b62.equalSplit(new int[]{-3,5,12,14,-9,13}));
+        System.out.println(E21b62.equalSplit(new int[]{-3,5,-12,14,-9,13}));
 //        int[][] mat = {
 //                new int[]{1, 2, 3, 2, 0, 1, 2},
 //                new int[]{0, 1, 0, 0, 0, 0, 0},

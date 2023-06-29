@@ -10,8 +10,8 @@ public class E21b92 {
         }
         if (i >= arr.length) return 0;
         return printExpr(arr, num - arr[i], i + 1, expr + "+" + arr[i] + " ") +
-                printExpr(arr, num + arr[i], i + 1, expr + "-" + arr[i] + " ") +
-                printExpr(arr, num, i + 1, expr);
+               printExpr(arr, num + arr[i], i + 1, expr + "-" + arr[i] + " ") +
+               printExpr(arr, num, i + 1, expr);
     }
 
 
