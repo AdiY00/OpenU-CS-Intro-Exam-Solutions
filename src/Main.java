@@ -1,5 +1,19 @@
 public class Main {
     public static void main(String[] args) {
+
+//        int[] a = {2, 3, 8, 14, 15, 35};
+//        System.out.println(E21a85.findAverage(a, 8));
+//        System.out.println(E21a85.findAverage(a, 2.5));
+//        System.out.println(E21a85.findAverage(a, 10));
+//        System.out.println(E21a85.findAverage(a, 8.5));
+//        System.out.println(E21a85.findAverage(a, (double) 42 / 5));
+//        int[][] prices = {
+//                new int[]{0, 15, 80, 90},
+//                new int[]{-1, 0, 40, 50},
+//                new int[]{-1, -1, 0, 70},
+//                new int[]{-1, -1, -1, 0}
+//        };
+//        System.out.println(E21a85.minPrice(prices));
 //        int[] a = {1, 4, 13, 6, 0, 19};
 //        System.out.println(E21b60.smallestSub(a, 22));
 //        System.out.println(E21b60.smallestSub(a, 42));

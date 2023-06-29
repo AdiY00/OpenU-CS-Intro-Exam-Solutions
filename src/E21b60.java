@@ -9,8 +9,8 @@ public class E21b60 {
         if (sum1 == target && sum2 == target) return true;
         if (i >= arr.length || amount1and2 >= arr.length - 1) return false;
         return split3(arr, sum1 + arr[i], sum2, i + 1, target, amount1and2 + 1) ||
-                split3(arr, sum1, sum2 + arr[i], i + 1, target, amount1and2 + 1) ||
-                split3(arr, sum1, sum2, i + 1, target, amount1and2);
+               split3(arr, sum1, sum2 + arr[i], i + 1, target, amount1and2 + 1) ||
+               split3(arr, sum1, sum2, i + 1, target, amount1and2);
     }
 
     private static int sumArr(int[] arr, int i) {
