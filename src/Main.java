@@ -1,6 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-
+//        System.out.println(E22b94.findDuplicate(new int[]{5,5,4,3,2,1}));
+//        System.out.println(E22b94.findDuplicate(new int[]{1,1,1,2,2,2,2}));
+//        char[][] mat = {
+//                new char[]{'a', 'c', 'b', 'c', '@', 'a'},
+//                new char[]{'b', 'x', 'z', 'c', 's', 'a'},
+//                new char[]{'?', 'c', 'd', '*', 'c', 'd'},
+//                new char[]{'b', 'c', 'a', '8', 'b', 'b'},
+//                new char[]{'c', '2', 'x', '+', 'b', 'c'},
+//        };
+//        char[][] mat2 = {
+//                new char[]{'a', 'd', 'e', 's', '@', 'a'},
+//                new char[]{'3', 'a', 'z', 'a', 's', 'a'},
+//                new char[]{'?', 'c', 'b', 'b', 'c', 'd'},
+//                new char[]{'b', 'c', 'a', '8', 'b', 'b'},
+//                new char[]{'c', '2', 'x', '+', 'b', 'c'},
+//        };
+////        System.out.println(E22b94.lengthPath(mat, "abc"));
+//        System.out.println(E22b94.maxPath(mat2, "abc"));
 //        int[] a = {2, 3, 8, 14, 15, 35};
 //        System.out.println(E21a85.findAverage(a, 8));
 //        System.out.println(E21a85.findAverage(a, 2.5));

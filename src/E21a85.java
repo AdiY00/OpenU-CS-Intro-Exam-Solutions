@@ -2,7 +2,6 @@ public class E21a85 {
     public static int minPrice(int[][] mat) {
         return minPrice(mat, 0, 0, 0);
     }
-
     private static int minPrice(int[][] mat, int start, int price, int i) {
         if (i == mat.length - 1) return price + mat[start][i];
         return Math.min(minPrice(mat, start, price, i + 1), minPrice(mat, i, price + mat[start][i], i + 1));
