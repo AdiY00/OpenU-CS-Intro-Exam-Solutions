@@ -1,5 +1,16 @@
 public class Main {
     public static void main(String[] args) {
+
+//        Range[] rangeArr = {new Range(-7, -3), new Range(-1, -1), new Range(4, 6), new Range(20, 22),};
+//        System.out.println(E20b96.minimalPositive(rangeArr));
+//        int[][] knightMat = {
+//                new int[]{4, 5, 6, 7, 1},
+//                new int[]{3, 5, 1, 7, 4},
+//                new int[]{4, 5, 6, 5, 8},
+//                new int[]{3, 4, 7, 7, 9},
+//                new int[]{6, 2, 2, 7, 6}
+//        };
+//        System.out.println(E20b96.maxSumKnight(knightMat));
 //        System.out.println(E22b94.findDuplicate(new int[]{5,5,4,3,2,1}));
 //        System.out.println(E22b94.findDuplicate(new int[]{1,1,1,2,2,2,2}));
 //        char[][] mat = {
