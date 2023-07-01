@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-
+//        char[][] arr = {
+//                "tzxcd".toCharArray(),
+//                "shazx".toCharArray(),
+//                "hwlor".toCharArray(),
+//                "orntn".toCharArray(),
+//                "abrin".toCharArray(),
+//        };
+//        E20b84.findWord(arr, "shalom");
 //        Range[] rangeArr = {new Range(-7, -3), new Range(-1, -1), new Range(4, 6), new Range(20, 22),};
 //        System.out.println(E20b96.minimalPositive(rangeArr));
 //        int[][] knightMat = {
@@ -27,7 +34,7 @@ public class Main {
 //                new char[]{'b', 'c', 'a', '8', 'b', 'b'},
 //                new char[]{'c', '2', 'x', '+', 'b', 'c'},
 //        };
-////        System.out.println(E22b94.lengthPath(mat, "abc"));
+//        System.out.println(E22b94.lengthPath(mat, "abc"));
 //        System.out.println(E22b94.maxPath(mat2, "abc"));
 //        int[] a = {2, 3, 8, 14, 15, 35};
 //        System.out.println(E21a85.findAverage(a, 8));

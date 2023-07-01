@@ -37,4 +37,3 @@ public class E20b96 {
         return Math.max(rangeA[low].getSmall(), 1);
     }
 }
-

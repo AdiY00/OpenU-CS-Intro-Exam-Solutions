@@ -4,24 +4,16 @@ public class E22b94 {
     }
 
     private static int lengthPath(char[][] mat, String pattern, int row, int col) {
-        if (row < 0 || col < 0 || row >= mat.length || col >= mat[0].length) return 0;
+        if (row < 0 || col < 0 || row >= mat.length || col >= mat[0].length || pattern.indexOf(mat[row][col]) == -1)
+            return 0;
         char temp = mat[row][col];
-        if (isInPattern(mat[row][col], pattern, 0)) {
-            mat[row][col] = 0;
-            int up = lengthPath(mat, pattern, row - 1, col);
-            int down = lengthPath(mat, pattern, row + 1, col);
-            int left = lengthPath(mat, pattern, row, col - 1);
-            int right = lengthPath(mat, pattern, row, col + 1);
-            return 1 + Math.max(Math.max(up, down), Math.max(left, right)); // 1 + max of up, down, left, right
-        }
+        mat[row][col] = 0;
+        int up = lengthPath(mat, pattern, row - 1, col);
+        int down = lengthPath(mat, pattern, row + 1, col);
+        int left = lengthPath(mat, pattern, row, col - 1);
+        int right = lengthPath(mat, pattern, row, col + 1);
         mat[row][col] = temp;
-        return 0;
-    }
-
-    private static boolean isInPattern(char c, String pattern, int i) {
-        if (i >= pattern.length()) return false;
-        if (pattern.charAt(i) == c) return true;
-        return isInPattern(c, pattern, ++i);
+        return 1 + Math.max(Math.max(up, down), Math.max(left, right)); // 1 + max of up, down, left, right
     }
 
     public static int maxPath(char[][] mat, String pattern) {

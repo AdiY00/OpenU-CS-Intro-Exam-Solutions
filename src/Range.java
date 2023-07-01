@@ -1,4 +1,4 @@
-public class Range { // (for E20b96.minimalPositive)
+class Range { // (for E20b96.minimalPositive)
     private int _small, _big;
     public Range(int s, int b) {
         _small = s;
