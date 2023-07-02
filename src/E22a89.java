@@ -1,6 +1,6 @@
 public class E22a89 {
     public static boolean isJump(String str1, String str2, int step) {
-        if (str2.length() * step > str1.length() + 1) return false;
+        if ((str2.length()-1) * step > str1.length() + 1) return false;
         return isJump(str1, str2, step, 0);
     }
 
@@ -11,7 +11,7 @@ public class E22a89 {
     }
 
     public static int strStep(String str1, String str2) {
-        int maxJump = str1.length() / str2.length();
+        int maxJump = str1.length() / (str2.length()-1);
         if (maxJump < 1) return -1;
         return strStep(str1, str2, maxJump, 1);
     }

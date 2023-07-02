@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println(E22a89.strStep("acccdccccb","adb"));
+//        System.out.println(E22a89.isJump("accccccccb","ab",9));
 //        char[][] arr = {
 //                "tzxcd".toCharArray(),
 //                "shazx".toCharArray(),
