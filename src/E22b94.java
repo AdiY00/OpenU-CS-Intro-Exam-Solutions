@@ -30,7 +30,7 @@ public class E22b94 {
         for (int i = 0; i < a.length; i++) {
             int j = Math.abs(a[i]);
             if (a[j] < 0) return j;
-            a[j] = -a[j];
+            a[j] *= -1;
         }
         return -1;
     }
